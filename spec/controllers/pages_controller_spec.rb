@@ -36,7 +36,7 @@ describe PagesController do
       response.should be_success
     end
     
-    t "should have the right title" do
+    it "should have the right title" do
       get 'about'
       response.should have_selector("title",
                         :content =>
