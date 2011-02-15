@@ -18,9 +18,33 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="ZenTest" version="4.4.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="aruba" version="0.2.2" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="autotest" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="autotest-fsevent" version="0.2.4" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
     </requirement>
     <requirement>
       <requirement>
@@ -30,9 +54,31 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="autotest-growl" version="0.2.9" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="autotest-rails-pure" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source manual="true" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="cucumber" version="0.9.4" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="diff-lcs" version="1.1.2" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
     </requirement>
     <requirement>
       <requirement>
@@ -42,9 +88,97 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="flexmock" version="0.8.11" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="gravatar_image_tag" version="1.0.0.pre2" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="growl" version="1.0.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="guard-rspec" version="0.1.9" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="launchy" version="0.3.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mechanize" version="0.9.3" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="merb-core" version="1.0.15" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mocha" version="0.9.10" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="mongrel" version="1.1.5" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="nokogiri" version="1.4.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="nokogiri" version="1.4.4" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rack" version="1.0.1" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rack" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rack-test-0.5.7/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rack-test" version="0.5.2" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rails" version="2.3.4" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
     </requirement>
     <requirement>
       <requirement>
@@ -54,9 +188,63 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="rake" version="0.8.7" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rake" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rcov" version="0.9.9" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rcov" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="relish" version="0.2.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rr" version="1.0.2" bound="LATEST_IN_BRANCH" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec" version="1.2.9" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="rspec" version="2.5.0" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="rspec" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rack-test-0.5.7/Gemfile" />
     </requirement>
     <requirement>
       <requirement>
@@ -66,9 +254,41 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="ruby-debug" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-expectations-2.5.0/Gemfile" />
+      <source from="annotate/ruby/1.8/gems/rspec-mocks-2.5.0/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="selenium-client" version="1.2.17" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sinatra" version="0.9.4" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/webrat-0.7.1/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="sinatra" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rack-test-0.5.7/Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="sqlite3-ruby" version="0" bound="GREATER_OR_EQUAL" lib="sqlite3" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="syntax" version="1.0.0" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="annotate/ruby/1.8/gems/rspec-core-2.5.1/Gemfile" />
     </requirement>
     <requirement>
       <requirement>
