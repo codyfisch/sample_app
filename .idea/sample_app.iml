@@ -18,6 +18,12 @@
     </requirement>
     <requirement>
       <requirement>
+        <dependency name="faker" version="0.3.1" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="gravatar_image_tag" version="1.0.0.pre2" bound="EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
@@ -52,6 +58,12 @@
       </requirement>
       <source from="Gemfile" />
     </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="will_paginate" version="3.0.pre2" bound="EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
@@ -76,10 +88,6 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-expectations (v2.5.0, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rspec-expectations-2.5.0)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec-core (v2.5.1, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rspec-core-2.5.1)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] rspec (v2.5.0, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/rspec-2.5.0)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest-growl (v0.2.9, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/autotest-growl-0.2.9)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest-rails-pure (v4.1.2, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/autotest-rails-pure-4.1.2)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] autotest (v4.4.6, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/autotest-4.4.6)" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="[gem] ZenTest (v4.4.2, C:/RailsInstaller/Ruby1.8.7/lib/ruby/gems/1.8/gems/ZenTest-4.4.2)" level="application" />
   </component>
 </module>
 
